@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="shortcut icon" href="img/favicon.png">
    <script src="https://kit.fontawesome.com/7419093e5f.js" crossorigin="anonymous"></script>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    <link rel="stylesheet" href="./css/style.css">
     <title>Plan Tenedor</title>
 </head>
@@ -23,19 +24,20 @@
 </header>
 
 <div>
-    <h1>Gracias por visitarnos</h1>
+    <h1 data-aos="fade-down">Gracias por visitarnos</h1>
     <section class="graciasPorVisitarnos">
-        <iframe width="600" height="250" src="https://www.youtube.com/embed/e6OEZTkt5FQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>Pensamos este espacio para recibirte y que la pases bien cocinando. Compartimos recetas simples, pero ricas. Queremos que te animes a cocinar, a descubrir sabores nuevos. Nuestra comida es sencilla, fácil y rica. Animate!</p>
+        <iframe width="600" height="250" src="https://www.youtube.com/embed/e6OEZTkt5FQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        <p data-aos="flip-left">Pensamos este espacio para recibirte y que la pases bien cocinando. Compartimos recetas simples, pero ricas. Queremos que te animes a cocinar, a descubrir sabores nuevos. Nuestra comida es sencilla, fácil y rica. Animate!</p>
     </section>
 
-<h2 id="conócenos">Quienes somos</h2>
+<h2 id="conócenos" data-aos="fade-right">Quienes somos</h2>
 <section class="quienesSomos">
-    <p>Somos un grupo de 4 amigos y creadores de Plan Tenedor.
+    <p data-aos="fade-up-right">
+        Somos un grupo de 4 amigos y creadores de Plan Tenedor.
         Queremos compartir con vos los platos que más nos gustan. Te invitamos a descubrir un mundo de sabores, a probar cosas distintas, a reunirte con amigos y disfrutar la vida.
         Te esperamos!
     </p>
-    <img width="600" height="300" src="./img/quienessomos.jpeg" alt="">
+    <img width="600" height="300" src="./img/quienessomos.jpeg" alt="" data-aos="fade-left">
 </section>
 
 </div>
@@ -62,5 +64,9 @@
     </div>
 </footer>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
